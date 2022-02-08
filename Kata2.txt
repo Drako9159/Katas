@@ -1,0 +1,25 @@
+Microsoft Windows [Versión 10.0.19044.1466]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\ANTONIO>python3 -m venv env
+
+C:\Users\ANTONIO>env\Scripts\activate
+
+(env) C:\Users\ANTONIO>pip freeze
+
+(env) C:\Users\ANTONIO>pip install python-dateutil
+Collecting python-dateutil
+  Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting six>=1.5
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: six, python-dateutil
+Successfully installed python-dateutil-2.8.2 six-1.16.0
+WARNING: You are using pip version 21.2.4; however, version 22.0.3 is available.
+You should consider upgrading via the 'C:\Users\ANTONIO\env\Scripts\python.exe -m pip install --upgrade pip' command.
+
+(env) C:\Users\ANTONIO>pip freeze
+python-dateutil==2.8.2
+six==1.16.0
+
+(env) C:\Users\ANTONIO>deactivate
+C:\Users\ANTONIO>
